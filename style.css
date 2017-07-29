@@ -1,0 +1,17 @@
+nav {
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #DD1F32;
+    border-radius: 0.4em;
+}
+
+nav a{
+    color:black;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: 'Neucha', serif; }
+
+body {
+    background-color: #E0BE2A;
+}
