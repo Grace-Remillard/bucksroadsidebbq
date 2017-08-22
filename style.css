@@ -15,3 +15,42 @@ nav a{
 body {
     background-color: #E0BE2A;
 }
+
+.dropbtn {
+    background-color: #DD1F32;
+    color: black;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: none;
+    font-size: 1.0em;
+    text-decoration: none;
+    font-family: 'Neucha', serif;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #DD1F32;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DD1F32;
+    font-size: 1em;
+    padding-top: 4px;
+
+    
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 7px;
+}
+
+.show {display:block;}
