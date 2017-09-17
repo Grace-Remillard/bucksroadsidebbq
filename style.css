@@ -1,7 +1,7 @@
 nav {
     text-align: center;
     font-size: 1.3em;
-    background-color: #DD1F32;
+    background-color: #D1182D;
 }
 
 nav a{
@@ -17,7 +17,7 @@ body {
 }
 
 .dropbtn {
-    background-color: #DD1F32;
+    background-color: #D1182D;
     color: black;
     margin-right: 15px;
     margin-left: 15px;
@@ -29,7 +29,7 @@ body {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #DD1F32;
+    background-color: #D1182D;
 }
 
 .dropdown {
@@ -39,7 +39,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #DD1F32;
+    background-color: #D1182D;
     font-size: 1em;
     padding-top: 4px;
 
@@ -61,7 +61,11 @@ h1 {
 }
 
 h2 {
- color:  #DD1F32;  
+ color: #D1182D;  
      font-family: sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+p{
+    font-family: sans-serif;
 }
