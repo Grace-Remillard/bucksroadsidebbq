@@ -2,7 +2,6 @@ nav {
     text-align: center;
     font-size: 1.3em;
     background-color: #DD1F32;
-    
 }
 
 nav a{
@@ -10,7 +9,8 @@ nav a{
     margin-right: 15px;
     margin-left: 15px;
     text-decoration: none;
-    font-family: 'Neucha', serif; }
+    font-family: sans-serif;
+}
 
 body {
     background-color: #E0BE2A;
@@ -24,7 +24,7 @@ body {
     border: none;
     font-size: 1.0em;
     text-decoration: none;
-    font-family: 'Neucha', serif;
+    font-family: sans-serif;
 
 }
 
@@ -54,3 +54,14 @@ body {
 }
 
 .show {display:block;}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+ color:  #DD1F32;  
+     font-family: sans-serif;
+    font-weight: 400;
+}
