@@ -42,8 +42,6 @@ body {
     background-color: #D1182D;
     font-size: 1em;
     padding-top: 4px;
-
-    
 }
 
 .dropdown-content a {
@@ -75,6 +73,12 @@ p{
     font-family: sans-serif;
 }
 
+class="label-text"{
+    font-family: sans-serif;
+    clear: left;
+}
+
+
 a {
     text-decoration: underline;
     text-decoration-color: black;
@@ -83,4 +87,19 @@ a {
 
 a[class="current"] {
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    img {
+        width: 700px;
+    }
+    .label {
+        float: right;
+    }
 }
